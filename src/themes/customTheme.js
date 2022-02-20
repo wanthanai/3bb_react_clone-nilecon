@@ -7,6 +7,9 @@ export const theme = {
             hamberger: '#f8941c',
             main_font: '#333333',
             sub_font: '#3e4555'
+        },
+        sec_nav: {
+            orange: '#f27025',
         }
     }
 }

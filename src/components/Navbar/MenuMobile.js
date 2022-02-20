@@ -26,8 +26,11 @@ function MenuMobile({ menuMbStatus, removeMbMenu }) {
         <MenuMobileWrap>
             {/* container */}
             <div 
-                className={menuMbStatus ? 'menu-mobile-con open': 'menu-mobile-con close'} 
                 id="mobile"
+                // slide open & close
+                className={menuMbStatus ? 'menu-mobile-con open': 'menu-mobile-con close'} 
+                // when menu mobile slide closed then remove menu mobile structure
+                style={removeMbMenu ? { display: 'none'} : { display: 'block'}}
             >
                 {/* menu */}
                 <ul className="menu">

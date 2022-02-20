@@ -14,6 +14,7 @@ import ReactFlagsSelect from 'react-flags-select';
 //! Components
 import MenuDesk from './MenuDesk';
 import MenuMobile from './MenuMobile';
+import SecondNav from './SecondNav'
 
 
 //! Navbar Component
@@ -25,10 +26,10 @@ function Navbar() {
     const [selected, setSelected] = useState('');
     // Menu Desktop
     const [menuDesk, setMenuDesk] = useState(false);
-    const [removeMenu, setRemoveMenu] = useState(false);
+    const [removeMenu, setRemoveMenu] = useState(true);
     // Menu Mobile
     const [menuMbStatus, setMenuMbStatus] = useState(false);
-    const [removeMbMenu, setRemoveMbMenu] = useState(false);
+    const [removeMbMenu, setRemoveMbMenu] = useState(true);
 
     //! useEffect
     useEffect(() => {
@@ -67,12 +68,12 @@ function Navbar() {
         if(menuMbStatus) {
             // close menu mobile
             setMenuMbStatus(false)
-            // remove structor menu mobile
+            // remove structure menu mobile
             setTimeout(() => {
                 setRemoveMbMenu(true);
             }, 400)
         } else {
-            // open structor menu mobile
+            // open structure menu mobile
             setRemoveMbMenu(false);
             // open menu mobile
             setTimeout(() => {
@@ -160,6 +161,9 @@ function Navbar() {
                 setRemoveMenu={setRemoveMenu}
                 removeMenu={removeMenu}
             />
+
+            {/* (DESKTOP) Second Nav */}
+            <SecondNav />
 
             {/* (Mobile) Main Menu */}
             <MenuMobile 
