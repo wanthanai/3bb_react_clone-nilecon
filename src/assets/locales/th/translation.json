@@ -1,0 +1,34 @@
+{
+    "nav": {
+        "nav_main_menu": "เมนูหลัก",
+        "nav_payment": "ช่องทางชำระค่าบริการ",
+        "nav_support": "ช่วยเหลือ",
+        "nav_login": "เข้าสู่ระบบ"
+    },
+    "menu": {
+        "main_menu": "เมนูหลัก",
+        "tv": "ทีวีและความบันเทิง",
+        "promotion": "โปรโมชั่น",
+        "shopping": "ช้อปปิ้ง",
+        "point": "พอยต์และสิทธิพิเศษ",
+        "3bbshop": "ศูนย์บริการ",
+        "News": "ข่าวสารและกิจกรรม",
+        "csr": "CSR",
+        "support": "ช่วยเหลือ",
+        "home": "อินเทอร์เน็ตบ้าน",
+        "gigafiber": "3BB GIGA Fiber",
+        "gigatv": "3BB GIGA TV",
+        "corporate": "อินเทอร์เน็ตองค์กร",
+        "solution": "Corporate Solution",
+        "darkfiber": "3BB Dark Fiber",
+        "vas": "VAS",
+        "wifi": "3BB WiFi",
+        "cloud": "3BB CloudTV",
+        "movie": "3BB Movie",
+        "voice": "3BB Voice",
+        "gamehub": "3BB Game Hub",
+        "other": "อื่นๆ",
+        "mail": "3BB Mail",
+        "set_lang": "ตั้งค่าภาษา"
+    }
+}

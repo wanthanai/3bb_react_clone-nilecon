@@ -1,0 +1,34 @@
+{
+    "nav": {
+        "nav_main_menu": "Menu",
+        "nav_payment": "Payment channels",
+        "nav_support": "Support",
+        "nav_login": "Login"
+    },
+    "menu": {
+        "main_menu": "Menu",
+        "tv": "TV & Entertainment",
+        "promotion": "Promotion",
+        "shopping": "Shopping",
+        "point": "Point & Privilege",
+        "3bbshop": "Find 3BB Shop",
+        "News": "News & Activities",
+        "csr": "CSR",
+        "support": "Support",
+        "home": "Home Boardband",
+        "gigafiber": "3BB GIGA Fiber",
+        "gigatv": "3BB GIGA TV",
+        "corporate": "Corporate Boardband",
+        "solution": "Corporate Solution",
+        "darkfiber": "3BB Dark Fiber",
+        "vas": "VAS",
+        "wifi": "3BB WiFi",
+        "cloud": "3BB CloudTV",
+        "movie": "3BB Movie",
+        "voice": "3BB Voice",
+        "gamehub": "3BB Game Hub",
+        "other": "Other",
+        "mail": "3BB Mail",
+        "set_lang": "Language"
+    }
+}
