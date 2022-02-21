@@ -40,6 +40,7 @@
         "rec_package": "Recommended Packages",
         "hbb_entertain": "Home Broadband with Entertainment",
         "see_more": "See more",
-        "test": "<h1 style={{ color: 'white' }}><span style={{ color: 'orange'}}>Get Free! </span>when sign up home broadband today</h1>"
+        "rec_promo": "Promotion",
+        "see_all": "See all"
     }
 }

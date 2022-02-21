@@ -1,12 +1,13 @@
 //! React
 import { useEffect } from 'react';
+//! i18next
+import i18n from 'i18next';
 //! Styled Components
 import styled from 'styled-components';
 import Carousel from './components/Carousel/Carousel';
 import SecondNav from './components/Navbar/SecondNav'
-import RecPackage from './components/ReccPackage/RecPackage';
-//! i18next
-import i18n from 'i18next';
+import RecPackage from './components/RecPackage/RecPackage';
+import RecPromo from './components/RecPromotion/RecPromo';
 
 
 //! Styles
@@ -51,6 +52,8 @@ function App() {
             <Carousel />
             {/* (Section) Recommend Package */}
             <RecPackage />
+            {/* (Section) Recommend Promotion */}
+            <RecPromo />
         </Container>
     );
 }
