@@ -31,5 +31,15 @@
         "mail": "3BB Mail",
         "set_lang": "Language",
         "package_net": "Internet package"
+    },
+    "content": {
+        "free_hbb": {
+            "1": "Get Free! ",
+            "2": "when sign up home broadband today"
+        },
+        "rec_package": "Recommended Packages",
+        "hbb_entertain": "Home Broadband with Entertainment",
+        "see_more": "See more",
+        "test": "<h1 style={{ color: 'white' }}><span style={{ color: 'orange'}}>Get Free! </span>when sign up home broadband today</h1>"
     }
 }

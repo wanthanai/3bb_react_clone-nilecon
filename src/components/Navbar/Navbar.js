@@ -14,7 +14,6 @@ import ReactFlagsSelect from 'react-flags-select';
 //! Components
 import MenuDesk from './MenuDesk';
 import MenuMobile from './MenuMobile';
-import SecondNav from './SecondNav'
 
 
 //! Navbar Component
@@ -161,9 +160,6 @@ function Navbar() {
                 setRemoveMenu={setRemoveMenu}
                 removeMenu={removeMenu}
             />
-
-            {/* (DESKTOP) Second Nav */}
-            <SecondNav />
 
             {/* (Mobile) Main Menu */}
             <MenuMobile 
