@@ -4,10 +4,12 @@ import { useEffect } from 'react';
 import i18n from 'i18next';
 //! Styled Components
 import styled from 'styled-components';
+//! Components
 import Carousel from './components/Carousel/Carousel';
 import SecondNav from './components/Navbar/SecondNav'
 import RecPackage from './components/RecPackage/RecPackage';
 import RecPromo from './components/RecPromotion/RecPromo';
+import Privileges from './components/Privileges/Privileges';
 
 
 //! Styles
@@ -19,7 +21,7 @@ const Container = styled.div`
     // border: 1px solid red;
 `
 
-//! Component
+//! App Component
 function App() {
 
     //! useEffect
@@ -27,7 +29,7 @@ function App() {
         checkLang();
     }, [])
 
-    //! Functin
+    //! Function
     // Check language every time
     const checkLang = () => {
         // check and change language
@@ -54,6 +56,8 @@ function App() {
             <RecPackage />
             {/* (Section) Recommend Promotion */}
             <RecPromo />
+            {/* (Section) Privileges for Customers */}
+            <Privileges />
         </Container>
     );
 }

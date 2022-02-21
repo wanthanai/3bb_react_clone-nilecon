@@ -39,13 +39,18 @@ function RecPromo() {
 
                 {/* (Slide Posts) Recommend Promotion */}
                 <Swiper
+                    slidesPerView={1}
+                    spaceBetween={15}
+                    slidesPerGroup={1}
+                    loop={true}
                     autoplay={{
                         delay: 5000,
                         disableOnInteraction: false,
                     }}
+                    loopFillGroupWithBlank={true}
                     navigation={true}
                     modules={[Navigation, Autoplay]}
-                    className="rec-promo-swiper"
+                    className="mySwiper"
                 >
                     {/* (1) Content Items */}
                     <SwiperSlide className='rec-pro-swiper-con'>
