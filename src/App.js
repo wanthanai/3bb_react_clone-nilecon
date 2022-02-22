@@ -10,6 +10,7 @@ import SecondNav from './components/Navbar/SecondNav'
 import RecPackage from './components/RecPackage/RecPackage';
 import RecPromo from './components/RecPromotion/RecPromo';
 import Privileges from './components/Privileges/Privileges';
+import NewsAndCSR from './components/News&CSR/NewsAndCSR';
 
 
 //! Styles
@@ -58,6 +59,8 @@ function App() {
             <RecPromo />
             {/* (Section) Privileges for Customers */}
             <Privileges />
+            {/* (Section) News, Activities and CSR */}
+            <NewsAndCSR />
         </Container>
     );
 }
