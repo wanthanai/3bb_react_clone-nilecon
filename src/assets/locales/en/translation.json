@@ -45,5 +45,40 @@
         "pri_customers": "Privilege for 3BB Customer",
         "3bb_news_act": "News & Activities",
         "csr": "CSR"
+    },
+    "footer_nav": {
+        "about_us": "About Us",
+        "privilege": "Privilege",
+        "terms": "Terms and Conditions",
+        "apply_job": "Apply Jobs",
+        "contact_us": "Contact Us",
+        "recom_pack": "Recommended Packages",
+        "3bb_bb": "3BB Broadband",
+        "3bb_corp": "3BB Corporate",
+        "3bb_wifi": "3BB WiFi",
+        "other_service": "Other Service",
+        "csr": "CSR",
+        "bb_for_edu": "Free Broadband Internet for Education Projects",
+        "jas_for_th": "JAS for Thai Students Toward Digital Era Projects",
+        "others": "Others",
+        "csr_news": "CSR News & Acitivities",
+        "support": "Support",
+        "speed_test": "3BB Speed Test",
+        "3bb_shop": "3BB Shop",
+        "report_legal": "Report Illegal Websites",
+        "report_loose": "Report Loose Internet Cables",
+        "complaint_center": "ศูนย์รับเรื่องร้องเรียน Complaint Center"
+    },
+    "footer": {
+        "company": "TRIPLE T BROADBAND PUBLIC COMPANY LIMITED",
+        "address": "200 Moo 4 Chaengwattana Rd., Pakkret District, Nonthaburi 11120",
+        "tel": "Call: 66-2-100-2100 Fax: 66-2-100-2121",
+        "appeal": "สำหรับร้องเรียน : 66-2-100-1100",
+        "approved": "Approved by "
+    },
+    "copyright": {
+        "title": "©2020 Triple T Broadband PCL. All rights reserved.",
+        "privacy": "Privacy Policy",
+        "support": "Support"
     }
 }

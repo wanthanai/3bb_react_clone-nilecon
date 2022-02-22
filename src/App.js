@@ -11,6 +11,9 @@ import RecPackage from './components/RecPackage/RecPackage';
 import RecPromo from './components/RecPromotion/RecPromo';
 import Privileges from './components/Privileges/Privileges';
 import NewsAndCSR from './components/News&CSR/NewsAndCSR';
+import Footer from './components/Footer/Footer';
+import FooterNav from './components/Footer/FooterNav/FooterNav';
+import Copyright from './components/Footer/Copyright/Copyright';
 
 
 //! Styles
@@ -59,8 +62,12 @@ function App() {
             <RecPromo />
             {/* (Section) Privileges for Customers */}
             <Privileges />
-            {/* (Section) News, Activities and CSR */}
+            {/* (Section) 3BB News, Activities and CSR */}
             <NewsAndCSR />
+            {/* (Footer) Footer, Footer Nav, Copyright */}
+            <FooterNav />
+            <Footer />
+            <Copyright />
         </Container>
     );
 }
