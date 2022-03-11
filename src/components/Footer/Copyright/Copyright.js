@@ -23,9 +23,9 @@ function Copyright() {
                     </div>
                     {/* (Right Itemm) */}
                     <div className="copyright-item-right">
-                        <a href="#">{t("copyright.privacy")}</a>
+                        <a href="#!">{t("copyright.privacy")}</a>
                         |
-                        <a href="#">{t("copyright.support")}</a>
+                        <a href="#!">{t("copyright.support")}</a>
                     </div>
                 </div>
             </div>

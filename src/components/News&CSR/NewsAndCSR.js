@@ -36,7 +36,10 @@ function NewsAndCSR() {
                             onClick={() => setSwapHeader(false)}
                             className={swapHeader ? 'news_act-wrap' : 'news_act-wrap active'}
                         >
-                            <img src={require('../../assets/images/icons/3BB.jpg')} />
+                            <img 
+                                src={require('../../assets/images/icons/3BB.jpg')} 
+                                alt="icons 3bb"
+                            />
                             <h1>{t("content.3bb_news_act")}</h1>
                         </div>
                         {/* (Header 2) Button */}
@@ -68,7 +71,10 @@ function NewsAndCSR() {
             </div>
             {/* (Footer) Background */}
             <div className="news_csr-footer">
-                <img src={require('../../assets/images/background/product-slide-bg2.png')} />
+                <img 
+                    src={require('../../assets/images/background/product-slide-bg2.png')} 
+                    alt="news csr footer img"
+                />
             </div>
         </NewsAndCSRWrap>
     )

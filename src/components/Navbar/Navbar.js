@@ -121,7 +121,12 @@ function Navbar() {
                 {/* Grid Item (Center) */}
                 <div className="logo_wrap">
                     <a href="/">
-                        <img src={returnImage('3BB_logo_popupfooter.jpg')} width="100" height="auto" />
+                        <img 
+                            src={returnImage('3BB_logo_popupfooter.jpg')} 
+                            width="100" 
+                            height="auto" 
+                            alt="logo 3bb"
+                        />
                     </a>
                 </div>
 
@@ -129,12 +134,15 @@ function Navbar() {
                 <div className="nav_item_right">
                     {/* DESKTOP */}
                     {/* payment channel */}
-                    <a className='payment' id="desktop" href="#">{t('nav.nav_payment')}</a>
+                    <a className='payment' id="desktop" href="#!">{t('nav.nav_payment')}</a>
                     {/* support */}
-                    <a className="support" id="desktop" href="#">{t('nav.nav_support')}</a>
+                    <a className="support" id="desktop" href="#!">{t('nav.nav_support')}</a>
                     {/* login */}
                     <button className="profile-login" id="desktop">
-                        <img src={returnImage('Profile.png')} />
+                        <img 
+                            src={returnImage('Profile.png')} 
+                            alt="profile login"
+                        />
                         <span>{t('nav.nav_login')}</span>
                     </button>
                     {/* select language */}
@@ -148,7 +156,12 @@ function Navbar() {
                         />
                     </div>
                     {/* MOBILE */}
-                    <img className="profile-img" id="mobile" src={returnImage('Profile.png')} />
+                    <img 
+                        src={returnImage('Profile.png')} 
+                        alt="profile img"
+                        className="profile-img" 
+                        id="mobile" 
+                    />
                 </div>
             </div>
 

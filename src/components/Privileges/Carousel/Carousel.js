@@ -39,7 +39,10 @@ function Carousel() {
                             key={item.id} 
                             className="pri-custom-carousel-item"
                         >
-                            <img src={require(`../../../assets/images/pri-custom/${item.img_name}`)} />
+                            <img 
+                                src={require(`../../../assets/images/pri-custom/${item.img_name}`)} 
+                                alt="carousel img"
+                            />
                         </SwiperSlide>
                     ))}
                 </Swiper>

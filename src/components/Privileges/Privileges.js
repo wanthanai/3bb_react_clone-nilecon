@@ -33,7 +33,10 @@ function Privileges() {
                 <div className="pri-custom-3bb_p">
                     {/* (Header) */}
                     <div className='pri-custom-3bb_p-header'>
-                        <img src={require('../../assets/images/icons/Privilege.png')} />
+                        <img 
+                            src={require('../../assets/images/icons/Privilege.png')} 
+                            alt="privilege header"
+                        />
                         <h2>3BB Privilege</h2>
                     </div>
                     {/* (See all) */}
@@ -55,7 +58,10 @@ function Privileges() {
                 <div className="pri-custom-3bb_p">
                     {/* (Header) */}
                     <div className='pri-custom-3bb_p-header'>
-                        <img src={require('../../assets/images/icons/Reward.png')} />
+                        <img 
+                            src={require('../../assets/images/icons/Reward.png')} 
+                            alt="reward privilges img"
+                        />
                         <h2>Reward</h2>
                     </div>
                     {/* (See all) */}

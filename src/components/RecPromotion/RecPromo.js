@@ -31,7 +31,7 @@ function RecPromo() {
                     {/* text */}
                     <h1>{t("content.rec_promo")}</h1>
                     {/* see all */}
-                    <a href="#" className="rec-promo-header_see_all">
+                    <a href="#!" className="rec-promo-header_see_all">
                         <span>{t("content.see_all")}</span>
                         <IoIosArrowForward />
                     </a>

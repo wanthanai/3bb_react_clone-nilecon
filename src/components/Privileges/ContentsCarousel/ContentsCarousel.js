@@ -47,6 +47,7 @@ function ContentsCarousel({ contents }) {
                                         <img 
                                             className="content-carousel-item-img"
                                             src={require(`../../../assets/images/pri-custom/contents/${item.img_name}`)}
+                                            alt="content img carousel"
                                         />
                                         {/* Content */}
                                         <div className='content-carousel-content-item'>

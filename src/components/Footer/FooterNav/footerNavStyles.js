@@ -2,13 +2,13 @@
 import styled from 'styled-components';
 
 //! Media Queries
-const media = {
-    desktopXL: '@media(min-width: 1280px)',
-    desktopL: '@media(min-width: 1000px) and (max-width: 1279px)',
-    laptop: '@media(min-width: 769px) and (max-width: 999px)',
-    tablet: '@media(min-width: 481px) and (max-width: 768px)',
-    mobile: '@media(min-width: 320px) and (max-width: 480px)',
-}
+// const media = {
+//     desktopXL: '@media(min-width: 1280px)',
+//     desktopL: '@media(min-width: 1000px) and (max-width: 1279px)',
+//     laptop: '@media(min-width: 769px) and (max-width: 999px)',
+//     tablet: '@media(min-width: 481px) and (max-width: 768px)',
+//     mobile: '@media(min-width: 320px) and (max-width: 480px)',
+// }
 
 //! FooterNav Wrap 
 export const FooterNavWrap = styled.div`

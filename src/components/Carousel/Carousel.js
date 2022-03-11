@@ -23,10 +23,16 @@ function CarouselImg() {
                 showStatus={false}
             >
                 <div>
-                    <img src={banner1} />
+                    <img 
+                        src={banner1} 
+                        alt="mockup img"
+                    />
                 </div>
                 <div>
-                    <img src={banner2} />
+                    <img
+                        src={banner2} 
+                        alt="mockup img"
+                    />
                 </div>
             </Carousel>
         </CarouselWrap>

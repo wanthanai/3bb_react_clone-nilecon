@@ -20,42 +20,42 @@ function SecondNav() {
         <SecondNavWrap>
             {/* item */}
             <li className="sn-item-wrapper">
-                <a className="sn-item" href="#">
+                <a className="sn-item" href="#!">
                     <ImHome className="sec-nav-icon" size={18} />
                     <h2>{t('menu.main_menu')}</h2>
                 </a>
             </li>
             {/* item */}
             <li className="sn-item-wrapper">
-                <a className="sn-item" href="#">
+                <a className="sn-item" href="#!">
                     <MdOutlineRouter className="sec-nav-icon" size={20} />
                     <h2>{t('menu.package_net')}</h2>
                 </a>
             </li>
             {/* item */}
             <li className="sn-item-wrapper">
-                <a className="sn-item" href="#">
+                <a className="sn-item" href="#!">
                     <MdMonitor className="sec-nav-icon" size={18} />
                     <h2>{t('menu.tv')}</h2>
                 </a>
             </li>
             {/* item */}
             <li className="sn-item-wrapper">
-                <a className="sn-item" href="#">
+                <a className="sn-item" href="#!">
                     <GoMegaphone className="sec-nav-icon" size={18}/>
                     <h2>{t('menu.promotion')}</h2>
                 </a>
             </li>
             {/* item */}
             <li className="sn-item-wrapper sn-item-5">
-                <a className="sn-item" href="#">
+                <a className="sn-item" href="#!">
                     <FiPackage className="sec-nav-icon" size={18} />
                     <h2>{t('menu.point')}</h2>
                 </a>
             </li>
             {/* item */}
             <li className="sn-item-wrapper sn-item-6">
-                <a className="sn-item" href="#">
+                <a className="sn-item" href="#!">
                     <GiShop className="sec-nav-icon" size={18}/>
                     <h2>{t('menu.3bbshop')}</h2>
                 </a>

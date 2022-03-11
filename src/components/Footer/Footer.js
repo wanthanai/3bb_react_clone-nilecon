@@ -41,6 +41,7 @@ function Footer() {
                         {/* (Logo) Footer Logo */}
                         <img 
                             src={require('../../assets/images/footer/3BB_logo_popup-1-300x128-1.png')} 
+                            alt="mockup img"
                             className="footer-center-logo"
                         />
                     </div>
@@ -51,20 +52,23 @@ function Footer() {
                             {/* text */}
                             <span>{t("footer.approved")}</span>
                             {/* img */}
-                            <img src={require('../../assets/images/footer/bns_registered.png')} />
+                            <img 
+                                src={require('../../assets/images/footer/bns_registered.png')} 
+                                alt="mockup img"
+                            />
                         </div>
                         {/* (Icons Link) */}
                         <div className="footer-right-icons_link">
                             {/* Facebook */}
-                            <a href="#"><img src={require('../../assets/images/footer/facebook.png')} /></a>
+                            <a href="#!"><img src={require('../../assets/images/footer/facebook.png')} alt="mockup img" /></a>
                             {/* Youtube */}
-                            <a href="#"><img src={require('../../assets/images/footer/youtube.png')} /></a>
+                            <a href="#!"><img src={require('../../assets/images/footer/youtube.png')} alt="mockup img" /></a>
                             {/* Line */}
-                            <a href="#"><img src={require('../../assets/images/footer/line.png')} /></a>
+                            <a href="#!"><img src={require('../../assets/images/footer/line.png')} alt="mockup img" /></a>
                             {/* Instagram */}
-                            <a href="#"><img src={require('../../assets/images/footer/instagram.png')} /></a>
+                            <a href="#!"><img src={require('../../assets/images/footer/instagram.png')} alt="mockup img" /></a>
                             {/* Twitter */}
-                            <a href="#"><img src={require('../../assets/images/footer/twitter.png')} /></a>
+                            <a href="#!"><img src={require('../../assets/images/footer/twitter.png')} alt="mockup img" /></a>
                         </div>
                     </div>
                 </div>

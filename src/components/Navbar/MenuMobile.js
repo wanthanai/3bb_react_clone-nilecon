@@ -36,7 +36,7 @@ function MenuMobile({ menuMbStatus, removeMbMenu }) {
                 <ul className="menu">
                     {/* item */}
                     <li className="item main-menu"><a href="/">{t("menu.main_menu")}</a></li>
-                    <li className="item"><a href="#">{t("menu.tv")}</a></li>
+                    <li className="item"><a href="#!">{t("menu.tv")}</a></li>
                     {/* submenu */}
                     <li>
                         {/* header (submenu) */}
@@ -46,8 +46,8 @@ function MenuMobile({ menuMbStatus, removeMbMenu }) {
                         <input type="checkbox" id="sub-menu" />
                         {/* item (submenu) */}
                         <ul>
-                            <li><a href="#">{t("menu.gigafiber")}</a></li>
-                            <li><a href="#">{t("menu.gigatv")}</a></li>
+                            <li><a href="#!">{t("menu.gigafiber")}</a></li>
+                            <li><a href="#!">{t("menu.gigatv")}</a></li>
                         </ul>
                     </li>
                     {/* submenu */}
@@ -59,11 +59,11 @@ function MenuMobile({ menuMbStatus, removeMbMenu }) {
                         <input type="checkbox" id="sub-menu-1" />
                         {/* item (submenu) */}
                         <ul>
-                            <li><a href="#">{t("menu.wifi")}</a></li>
-                            <li><a href="#">{t("menu.cloud")}</a></li>
-                            <li><a href="#">{t("menu.movie")}</a></li>
-                            <li><a href="#">{t("menu.voice")}</a></li>
-                            <li><a href="#">{t("menu.gamehub")}</a></li>
+                            <li><a href="#!">{t("menu.wifi")}</a></li>
+                            <li><a href="#!">{t("menu.cloud")}</a></li>
+                            <li><a href="#!">{t("menu.movie")}</a></li>
+                            <li><a href="#!">{t("menu.voice")}</a></li>
+                            <li><a href="#!">{t("menu.gamehub")}</a></li>
                         </ul>
                     </li>
                     {/* submenu */}
@@ -75,14 +75,14 @@ function MenuMobile({ menuMbStatus, removeMbMenu }) {
                         <input type="checkbox" id="sub-menu-2" />
                         {/* item (submenu) */}
                         <ul>
-                            <li><a href="#">{t("menu.solution")}</a></li>
-                            <li><a href="#">{t("menu.darkfiber")}</a></li>
+                            <li><a href="#!">{t("menu.solution")}</a></li>
+                            <li><a href="#!">{t("menu.darkfiber")}</a></li>
                         </ul>
                     </li>
                     {/* item */}
-                    <li className="item"><a href="#">{t("menu.promotion")}</a></li>
-                    <li className="item"><a href="#">{t("menu.point")}</a></li>
-                    <li className="item"><a href="#">{t("menu.3bbshop")}</a></li>
+                    <li className="item"><a href="#!">{t("menu.promotion")}</a></li>
+                    <li className="item"><a href="#!">{t("menu.point")}</a></li>
+                    <li className="item"><a href="#!">{t("menu.3bbshop")}</a></li>
                     {/* submenu */}
                     <li>
                         {/* header (submenu) */}
@@ -92,10 +92,10 @@ function MenuMobile({ menuMbStatus, removeMbMenu }) {
                         <input type="checkbox" id="sub-menu-3" />
                         {/* item (submenu) */}
                         <ul>
-                            <li><a href="#">{t("menu.support")}</a></li>
-                            <li><a href="#">{t("menu.News")}</a></li>
-                            <li><a href="#">{t("menu.mail")}</a></li>
-                            <li><a href="#">{t("menu.csr")}</a></li>
+                            <li><a href="#!">{t("menu.support")}</a></li>
+                            <li><a href="#!">{t("menu.News")}</a></li>
+                            <li><a href="#!">{t("menu.mail")}</a></li>
+                            <li><a href="#!">{t("menu.csr")}</a></li>
                         </ul>
                     </li>
                     {/* submenu */}
@@ -108,8 +108,8 @@ function MenuMobile({ menuMbStatus, removeMbMenu }) {
                         {/* item (submenu) */}
                         <ul>
                             {/* select language */}
-                            <li onClick={() => changeLanguage('th')}><a href="#"><Th /> Thailand</a></li>
-                            <li onClick={() => changeLanguage('us')}><a href="#"><Us /> English</a></li>
+                            <li onClick={() => changeLanguage('th')}><a href="#!"><Th /> Thailand</a></li>
+                            <li onClick={() => changeLanguage('us')}><a href="#!"><Us /> English</a></li>
                         </ul>
                     </li>
                 </ul>

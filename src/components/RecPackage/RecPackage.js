@@ -51,7 +51,7 @@ function ReccPackage() {
             <div className="rec-pack-hbb-con">
                 {/* header */}
                 <div className="rec-pack-hbb-header">
-                    <img src={require('../../assets/images/rec-pack/3bb-gigatv.png')} />
+                    <img src={require('../../assets/images/rec-pack/3bb-gigatv.png')} alt="hbb-header" />
                     <h2>{t('content.hbb_entertain')}</h2>
                 </div>
                 {/* banner */}
@@ -59,11 +59,13 @@ function ReccPackage() {
                     id="desktop"
                     className="rec-pack-hbb-banner" 
                     src={require('../../assets/images/rec-pack/GIGA-TV_banner.png')}
+                    alt="giga tv banner"
                 />
                 <img 
                     id="mobile"
                     className="rec-pack-hbb-banner" 
                     src={require('../../assets/images/rec-pack/GIGA-TV_banner_500x500_vMobile.png')}
+                    alt="giga banner mobile"
                 />
                 {/* button */}
                 <button 
